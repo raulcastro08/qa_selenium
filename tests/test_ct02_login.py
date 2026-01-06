@@ -18,3 +18,4 @@ class TestCT02:
         assert driver.find_element(
             By.XPATH, "//span[@class='title']"
         ).is_displayed()
+
