@@ -12,7 +12,7 @@ from pages.cart_page import CartPage
 class TestCT01:
     
     def test_ct01_adicionar_produtos_carrinho(self, driver):
-        wait = WebDriverWait(driver, 10)
+      
         
         #Fazer Login na Plataforma
         

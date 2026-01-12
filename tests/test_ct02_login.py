@@ -8,10 +8,7 @@ from pages.home_page import HomePage
 
 class TestCT02:
     def test_ct02_login(self, driver):
-        wait = WebDriverWait(driver, 10)
-
-        # Espera a página de login carregar
-        wait.until(EC.visibility_of_element_located((By.ID, "user-name")))
+        
 
         home_page = HomePage(driver)
         login_page = LoginPage(driver)
